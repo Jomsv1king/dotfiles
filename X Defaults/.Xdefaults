@@ -1,1 +1,14 @@
-# This will be my ~/.Xdefualts file
+!-----------------------------------------------------------U R X V T
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+URxvt.font:            xft:DejaVu Serif Condensed:size=10:antialias=true
+URxvt*urlLauncher:         firefox  
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:        true
+URxvt*scrollColor:        #000000
+urxvt*foreground:       #aaaaaa
+urxvt.transparent:	true
+urxvt.shading:	20
+URxvt*geometry:		80x24
+URxvt.letterSpace: -3
