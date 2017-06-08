@@ -1,1 +1,35 @@
-#This will be my Xresources file
+rofi.location:          0
+rofi.color-enabled:     true
+!                       'background', 'border'
+rofi.color-window:      argb:dc111111, argb:dc111111
+! State:                'bg',          'fg',   'bgalt',       'hlbg',        'hlfg'
+rofi.color-normal:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ff15525b
+rofi.color-urgent:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ff15525b
+rofi.color-active:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ff15525b
+rofi.separator-style:   dash
+rofi.fullscreen:        false
+rofi.padding:           130
+rofi.hide-scrollbar:    true
+rofi.line-margin:       5
+rofi.fake-transparency: true
+rofi.yoffset:           0
+rofi.xoffset:           0
+rofi.width:             1366
+rofi.opacity:           100
+rofi.font: System San Fransisco Display 12
+
+!-----------URxvt---------------
+!-----------------------------------------------------------U R X V T
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+URxvt.font:            xft:DejaVu Serif Condensed:size=10:antialias=true
+URxvt*urlLauncher:         firefox  
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:        true
+URxvt*scrollColor:        #000000
+urxvt*foreground:       #aaaaaa
+urxvt.transparent:	true
+urxvt.shading:	20
+URxvt*geometry:		80x24
+URxvt.letterSpace: -3
